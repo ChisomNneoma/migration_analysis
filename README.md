@@ -1,4 +1,13 @@
 # Migration Analysis
+- [Project Overview](#project-overview)
+- [Tools](#tools)
+- [Data Cleaning and Preparations](#data-cleaning-and-preparations)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results and Findings](#results-and-findings)
+- [Recommendations](#recommendations)
+- [View Report](#view-report)
+
 
 ### Project Overview
 
@@ -24,6 +33,7 @@ I analyzed the various trends and patterns to better understand the insights rel
 
 ``` Excel
 
+=IFS([@Year]<=1980,"Gen X",[@Year]<=1996,"Millenials",[@Year]<=2012,"Gen Z")
 
 ```
 
@@ -71,7 +81,7 @@ Insert slicer and clustered chart for visualization.
 Create new sheet, remove grid lines and bring in all the charts and slicers for visualization.
 
 
-### Results/Findings
+### Results and Findings
 
 The Millennials generation has the highest migration rate with 280 migrants.
 
@@ -91,4 +101,4 @@ To reduce migration in Nigeria, explore economic factors influencing migration, 
 
 ### View Report
 
-To view the complete report which consists of the raw data, migration data(cleaned data), pivot table/charts and dashboard, [CLICK HERE.]()
+To view the complete report which consists of the raw data, migration data(cleaned data), pivot table/charts and dashboard, [CLICK HERE.](https://onedrive.live.com/embed?resid=A3DA6CEAE335B59D%21416&authkey=%21ABHzR3ew6Pnc2FA&em=2&AllowTyping=True&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True)
